@@ -15,8 +15,10 @@
 clone https://github.com/oZoon/like-telegram.git
 cd like-telegram
 npm i
-npm run start - development
-npm run build - production
+переименовать .env.example в .env
+npm run start - для разработки
+npm run build - для продакшн
+
 ```
 
 ## демо <a name="usage"></a>
@@ -24,20 +26,22 @@ npm run build - production
 <a href="http://on-cherry.ru/test-tasks/like-telegram/">ДЕМО</a>
 
 пароли для входа:
-Александр: "1"
-Игорь: "2"
-Николай: "3"
-Юлия: "4"
-Екатерина: "5"
-Олег: "6"
-Ирина: "7"
-Админ: "0"
+```
+Александр: "1",
+Игорь: "2",
+Николай: "3",
+Юлия: "4",
+Екатерина: "5",
+Олег: "6",
+Ирина: "7",
+Админ: "0",
+```
 
 ## инструменты <a name = "built_using"></a>
 
-- [React](https://www.mongodb.com/) - React
-- [Redux](https://expressjs.com/) - Redux
-- [Typescript](https://vuejs.org/) - Typescript
+- [React](https://ru.react.js.org/) - React
+- [Redux](https://redux.js.org/) - Redux
+- [Typescript](https://www.typescriptlang.org/docs/) - Typescript
 
 - адаптив по минималке
 - большинство данных захардкожено
